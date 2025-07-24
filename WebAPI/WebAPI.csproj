@@ -17,4 +17,16 @@
     <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="build\Application.deps.json" />
+    <_ContentIncludedByDefault Remove="build\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="build\appsettings.json" />
+    <_ContentIncludedByDefault Remove="build\Domain.deps.json" />
+    <_ContentIncludedByDefault Remove="build\Infrastructure.deps.json" />
+    <_ContentIncludedByDefault Remove="build\Infrastructure.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="build\UnitTests.deps.json" />
+    <_ContentIncludedByDefault Remove="build\UnitTests.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="build\WebAPI.deps.json" />
+    <_ContentIncludedByDefault Remove="build\WebAPI.runtimeconfig.json" />
+  </ItemGroup>
 </Project>
